@@ -1,0 +1,17 @@
+package ru.netology.keyprincipl;
+
+public class Main {
+    public static void main(String[] args) {
+        Post post = new Post();
+        post.name = "Иван";
+        post.passport = "4444 № 44444444";
+        post.phone = "+7 (999)-999-99-99";
+        post.surname = "Петров";
+        post.subscription = true;
+        post.birthday = new FormDate();
+        post.birthday.day = "12";
+        post.birthday.month = "май";
+        post.birthday.year = "1967";
+    }
+}
+
