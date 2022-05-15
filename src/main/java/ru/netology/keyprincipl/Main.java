@@ -9,9 +9,8 @@ public class Main {
         post.surname = "Петров";
         post.subscription = true;
         post.birthday = new FormDate();
-        post.birthday.day = "12";
+        post.birthday.day = 14;
         post.birthday.month = "май";
-        post.birthday.year = "1967";
+        post.birthday.year = 1967;
     }
 }
-
